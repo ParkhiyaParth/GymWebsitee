@@ -1,0 +1,12 @@
+1. to ignore file (touch.ignore)
+2. git config --global user.name "ParkhiyaParth"
+3. git config --global user.name "parkhiyaparth@gmail.com"
+(git init)
+4. to initialize git repository (git add .)
+5. git commit -m "Initial commit"
+6. git status (just to see working tree clean)
+7. to generate deploy key (ssh-keygen -t rsa -b 4096 -C "your_email@example.com")
+8. at <path to id_rsa.pub>
+ # add this key to github
+9. git remote add origin <ssh url.git>
+10. git push origin master
